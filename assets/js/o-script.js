@@ -92,7 +92,6 @@ function estimateTotal(event) {
      results.innerHTML += 'Fish Cost: $' + (totalItemPrice).toFixed(2) + '<br>'; 
      results.innerHTML += 'Shipping Fee: $' + (((totalItemPrice * taxFactor) - totalItemPrice)).toFixed(2) + ' (' + shippingShip + ')' + '<br>'; 
      results.innerHTML += 'Grand Total: $' + (totalItemPrice + (((totalItemPrice * taxFactor) - totalItemPrice))).toFixed(2) + '<br>'; 
-     results = str.link("https://www.w3schools.com");
 }
 
 })();// JavaScript Document
