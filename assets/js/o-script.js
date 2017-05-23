@@ -91,7 +91,15 @@ function estimateTotal(event) {
 	results.innerHTML = 'Total items: ' + totalQty + '<br>';
      results.innerHTML += 'Fish Cost: $' + (totalItemPrice).toFixed(2) + '<br>'; 
      results.innerHTML += 'Shipping Fee: $' + (((totalItemPrice * taxFactor) - totalItemPrice)).toFixed(2) + ' (' + shippingShip + ')' + '<br>'; 
-     results.innerHTML += 'Grand Total: $' + (totalItemPrice + (((totalItemPrice * taxFactor) - totalItemPrice))).toFixed(2) + '<br>'; 
-}
+     results.innerHTML += 'Grand Total: $' + (totalItemPrice + (((totalItemPrice * taxFactor) - totalItemPrice))).toFixed(2) + '<br>';
+     var x = document.getElementById('vckot');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'block';
+    }
 
+}
+     
+     
 })();// JavaScript Document
