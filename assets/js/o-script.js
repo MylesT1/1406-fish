@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	var btnEstimate = document.getElementById('btn-estimate');
 	
-	btnEstimate.disabled = true;
+	btnEstimate.disabled = false;
 	
 	ship.addEventListener('change', function() {
 	
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	});
 });
-
+	
 function estimateTotal(event) {
 	event.preventDefault();
 	
@@ -100,6 +100,5 @@ function estimateTotal(event) {
     }
 
 }
-     
-     
+
 })();// JavaScript Document
